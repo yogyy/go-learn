@@ -11,11 +11,6 @@
 | %        | Sisa Pembagian |
 
 ```go
-package main
-
-import "fmt"
-
-func main() {
 	var a = 10
 	var b = 5
 
@@ -24,8 +19,6 @@ func main() {
 
 	fmt.Println(jumlah)
 	fmt.Println(value)
-}
-
 ```
 
 ## Augmented Assigment
@@ -39,19 +32,12 @@ func main() {
 | a = a % 10         | a %= 10               |
 
 ```go
-package main
-
-import "fmt"
-
-func main() {
 	var i = 10
 	i += 10 //i = i + 10
 	fmt.Println(i)
 
 	i += 5 // i = i + 5
 	fmt.Println(i)
-
-}
 ```
 
 ## Unary Operator
@@ -65,10 +51,6 @@ func main() {
 | !        | Boolean kebalikan |
 
 ```go
-package main
-import "fmt"
-
-func main() {
 	var j = 1
 	fmt.Println(j)
 
@@ -77,7 +59,6 @@ func main() {
 
 	j-- //j = j -	1
 	fmt.Println(j)
-}
 ```
 
 ## Operasi Perbandingan
@@ -97,19 +78,12 @@ func main() {
 | !=       | Tidak Sama Dengan       |
 
 ```go
-package main
-
-import "fmt"
-
-func main() {
 	var name1 = "John"
 	var name2 = "John"
 
 	var result bool = name1 == name2
 
 	fmt.Println(result) //true
-
-}
 ```
 
 ## Operasi Boolean
@@ -149,11 +123,6 @@ func main() {
 | !        	| false   	| true  	|
 
 ```go
-package main
-
-import "fmt"
-
-func main() {
 	var nilaiAkhir = 90
 	var nilaiAbsen = 80
 
@@ -163,5 +132,4 @@ func main() {
 	var lulus bool = lulusNilaiAKhir && lulusNilaiAbsen
 
 	fmt.Println(lulus) // false
-}
 ```
