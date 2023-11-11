@@ -1,5 +1,9 @@
 # go-learn
+```go
+package main
 
+import "fmt"
+```
 ## Tipe Data Number
 
 - Ada dua jenis tipe data Number, yaitu :
@@ -42,17 +46,12 @@ Alias
 | int       | Minimal int32  |                |
 | uint      | Minimal uint32 |                |
 
-contoh code :
 
 ```go
-package main
-
-import "fmt"
-
 func main() {
-	fmt.Println("satu", 1)
-	fmt.Println("dua", 2)
-	fmt.Println("tiga koma lima", 3.5)
+  fmt.Println("satu", 1)
+  fmt.Println("dua", 2)
+  fmt.Println("tiga koma lima", 3.5)
 }
 ```
 
@@ -66,16 +65,11 @@ func main() {
 | true          | Benar      |
 | false         | Salah      |
 
-contoh code :
 
 ```go
-package main
-
-import "fmt"
-
 func main() {
-	fmt.Println("benar =", true)
-	fmt.Println("salah =", false)
+  fmt.Println("benar =", true)
+  fmt.Println("salah =", false)
 }
 ```
 
@@ -87,12 +81,8 @@ func main() {
 - Nilai data String di Go-Lang selalu diawali dengan karakter “ (petik dua) dan diakhiri dengan karakter “ (petik dua)
 
 ```go
-package main
-
-import "fmt"
-
 func main() {
-	fmt.Println("John Constantine ")
+  fmt.Println("John Constantine ")
 }
 ```
 
@@ -104,14 +94,10 @@ func main() {
 | “string”[number] | Mengambil karakter pada posisi yang ditentukan |
 
 ```go
-package main
-
-import "fmt"
-
 func main() {
-	fmt.Println(len("John"))
-	fmt.Println("John Constantine"[0])
-	fmt.Println("John Constantine"[1])
+  fmt.Println(len("John"))
+  fmt.Println("John Constantine"[0])
+  fmt.Println("John Constantine"[1])
 }
 ```
 
@@ -123,16 +109,11 @@ func main() {
 - Untuk membuat variable, kita bisa menggunakan kata kunci var, lalu diikuti dengan nama variable dan tipe datanya
 
 ```go
-package main
-
-import "fmt"
-
 func main() {
-	var name = "John Constantine"
-	fmt.Println(name)
-
-	name = "Bruce Wayne"
-	fmt.Println(name)
+  var name = "John Constantine"
+  fmt.Println(name)
+  name = "Bruce Wayne"
+  fmt.Println(name)
 }
 ```
 
@@ -147,19 +128,13 @@ func main() {
 - Asalkan saat membuat variable kita langsung menginisialisasi datanya
 - Agar tidak perlu menggunakan kata kunci var, kita perlu menggunakan kata kunci := saat menginisialisasikan data pada variable tersebut
 
-contoh code :
 
 ```go
-package main
-
-import "fmt"
-
 func main() {
-	name := "John Constantine"
-	fmt.Println(name)
-
-	name = "Lex Luthor"
-	fmt.Println(name)
+  name := "John Constantine"
+  fmt.Println(name)
+  name = "Lex Luthor"
+  fmt.Println(name)
 }
 ```
 
@@ -169,20 +144,16 @@ func main() {
 - Code yang dibuat akan lebih bagus dan mudah dibaca
 
 ```go
-package main
-
-import "fmt"
-
 func main() {
-	var (
-		firtName   = "Lucifer"
-		middleName = "Morning"
-		lastName   = "Star"
-	)
+  var (
+    firtName   = "Lucifer"
+    middleName = "Morning"
+    lastName   = "Star"
+  )
 
-	fmt.Println(firtName)
-	fmt.Println(middleName)
-	fmt.Println(lastName)
+  fmt.Println(firtName)
+  fmt.Println(middleName)
+  fmt.Println(lastName)
 }
 ```
 
@@ -193,13 +164,9 @@ func main() {
 - Saat pembuatan constant, kita wajib langsung menginisialisasikan datanya
 
 ```go
-package main
-
-import "fmt"
-
 func main() {
-	const fullName = "Lucifer MorningStar"
-	fmt.Println(fullName)
+  const fullName = "Lucifer MorningStar"
+  fmt.Println(fullName)
 }
 ```
 
@@ -208,19 +175,15 @@ func main() {
 Sama seperti variable, di Go-Lang juga kita bisa membuat constant secara sekaligus banyak
 
 ```go
-package main
-
-import "fmt"
-
 func main() {
-	const (
+  const (
     firstName = "Lucifer"
     lastName = "MorningStar"
   )
 
   // error
-	firstName = "Bruce"
-	lastName = "Wayne"
+  firstName = "Bruce"
+  lastName = "Wayne"
 }
 ```
 
