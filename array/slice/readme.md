@@ -19,7 +19,7 @@
 | array[:]        	| Membuat slice dari array dimulai index 0 sampai index akhir di array   	|
 
 ### Slice dan Array
-![diagram](http://cdn-0.plantuml.com/plantuml/png/XP71IiD048Rl-nH3xm6JnhGDA2s81q45FOg7JPoagzlTC9a8HNntTzQjY1Pw_Fxz-9dPMO-iYQUTLRvvnPP14-azV2Y0CxY0sOrsaoOp2vmBNsD3Xw2Gu5OJij1SQ3EGiK9bVCFedSUYoKMeli56M0Xi-cdaQHHU2Z_YmBXha2HPINB_nZvn7gUwy-y_HfvBSeLZIZxLOPNHcXRpk0l0u8rZfE2MaIswdhS1vn5RFUZMy3u4oxyLnR-AwaH59HNECmBx0NoNHb7nSv_AUl6iqBs064Uy8dbLlVhjfNKoClsMiyjqgHeUi4D2rw9AqsOMk-F2EhI5Mty1)
+![diagram](https://www.plantuml.com/plantuml/dpng/XP71IiD048Rl-nH3xm6JnhGDA2s81q45FOg7JPoagzlTC9a8HNntTzQjY1Pw_Fxz-9dPMO-iYQUTLRvvnPP14-azV2Y0CxY0sOrsaoOp2vmBNsD3Xw2Gu5OJij1SQ3EGiK9bVCFedSUYoKMeli56M0Xi-cdaQHHU2Z_YmBXha2HPINB_nZvn7gUwy-y_HfvBSeLZIZxLOPNHcXRpk0l0u8rZfE2MaIswdhS1vn5RFUZMy3u4oxyLnR-AwaH59HNECmBx0NoNHb7nSv_AUl6iqBs064Uy8dbLlVhjfNKoClsMiyjqgHeUi4D2rw9AqsOMk-F2EhI5Mty1)
 
 ```go
 batmanVillains := [...]string{"Joker", "Ra's al Ghul", "Bane", "Riddler", "Penguin", "Two-Face", "Scarecrow"}
